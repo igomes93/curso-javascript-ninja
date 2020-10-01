@@ -158,8 +158,33 @@ deve conter no retorno da frase acima é "metro" no lugar de "metros".
 - Para cada validação, você irá declarar uma variável localmente (dentro do
 método), que será concatenada com a frase de retorno, mostrando a resposta
 correta, de acordo com os dados inseridos no objeto.
-*/
-?
+*
+var pessoa={nome:'Igor',sobrenome:'Gomes',sexo:'M',idade:26,altura:1.72,peso:100,andando:false,caminhouquantosmetros:0}
+
+pessoa.andar=function(x){
+pessoa.caminhouquantosmetros+=x;
+pessoa.andando=true}
+
+pessoa.andar(100);
+pessoa.andar(100);
+pessoa.andar(500);
+pessoa
+
+pessoa.andando
+
+pessoa.andando=false
+pessoa
+
+pessoa.caminhouquantosmetros
+
+pessoa.apresentacao=function(){
+  var houm;
+    if(houm==="f"
+  return "ola meu nome é"+" "+pessoa.nome+" "+"tenho"+" "+pessoa.idade+" "+"anos,"+pessoa.altura+","+"meu peso é"+" "+pessoa.peso+" "+"kg"+" "+"e só hoje eu ja caminhei"+" "+pessoa.caminhouquantosmetros+" "+"metros."}
+pessoa.apresentacao()
+
+
+
 
 // Agora, apresente-se ;)
 ?
