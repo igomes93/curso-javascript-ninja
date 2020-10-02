@@ -179,9 +179,27 @@ pessoa.caminhouquantosmetros
 
 pessoa.apresentacao=function(){
   var houm;
-    if(houm==="f"
-  return "ola meu nome é"+" "+pessoa.nome+" "+"tenho"+" "+pessoa.idade+" "+"anos,"+pessoa.altura+","+"meu peso é"+" "+pessoa.peso+" "+"kg"+" "+"e só hoje eu ja caminhei"+" "+pessoa.caminhouquantosmetros+" "+"metros."}
-pessoa.apresentacao()
+  
+  if(pessoa.sexo==="f"){
+  houm="a"} else{
+  houm="o"
+      }
+  var anos;
+
+  if(pessoa.idade===1){
+    anos='ano'} else{
+      anos='anos'
+    }
+
+  var andei;
+
+  if(pessoa.caminhouquantosmetros===1){
+    andei='metro'} else{ andei='metros'
+
+    }
+
+  
+  return "ola eu sou"+" "+houm+" "+pessoa.nome+" "+"tenho"+" "+pessoa.idade+" "+anos+" "+pessoa.altura+","+"meu peso é"+" "+pessoa.peso+" "+"kg"+" "+"e só hoje eu ja caminhei"+" "+pessoa.caminhouquantosmetros+" "+andei}
 
 
 
