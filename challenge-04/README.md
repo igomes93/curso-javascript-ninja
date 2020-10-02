@@ -7,7 +7,7 @@ um único parâmetro como argumento. Essa função deve retornar `true` se o
 equivalente booleano para o valor passado no argumento for `true`, ou `false`
 para o contrário.
 */
-?
+
 
 // Invoque a função criada acima, passando todos os tipos de valores `falsy`.
 ?
@@ -29,35 +29,46 @@ seguintes propriedades (os valores devem ser do tipo mostrado abaixo):
 - `assentos` - Number - cinco por padrão
 - `quantidadePessoas` - Number - zero por padrão
 */
-?
+var carro={marca:'VW',modelo:'Fox',placa:'xxx-0000',ano:2010,cor:'preto',porta:4,assentos:5,qtdpessoa:0};
 
 /*
 Crie um método chamado `mudarCor` que mude a cor do carro conforme a cor
 passado por parâmetro.
 */
-?
+carro.mudarcor=function(qualcor){
+carro.cor=qualcor;
+}
+
 
 /*
 Crie um método chamado `obterCor`, que retorne a cor do carro.
 */
-?
+carro.obtercor=function(){
+  return carro.cor;
+}
 
 /*
 Crie um método chamado `obterModelo` que retorne o modelo do carro.
 */
-?
+carro.obtermodelo=function(){
+  return carro.modelo;
+}
 
 /*
 Crie um método chamado `obterMarca` que retorne a marca do carro.
 */
-?
+carro.obtermarca=function(){
+  return carro.marca;
+}
 
 /*
 Crie um método chamado `obterMarcaModelo`, que retorne:
 "Esse carro é um [MARCA] [MODELO]"
 Para retornar os valores de marca e modelo, utilize os métodos criados.
 */
-?
+
+carro.obtermarcamodelo=function(){
+  return "Esse é um carro um"+" "+ carro.obtermarca()+" "+carro.obtermodelo();
 
 /*
 Crie um método que irá adicionar pessoas no carro. Esse método terá as
