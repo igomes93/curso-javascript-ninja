@@ -49,13 +49,33 @@ propriedades:
 - Se o parâmetro não for passado, a função deve retornar o objeto com todos
 os livros.
 */
-// ?
+function book(livros){
+  var meuslivros={
+    'Mindset':{
+      qtdpaginas:400,
+      autor:'Carol',
+      editora:'Abril'
+    },
+    '50tons':{
+      qtdpaginas:250,
+      autor:'Zuck',
+      editora:'Objeriva'
+    },
+    'segredos':{
+      qtdpaginas:300,
+      autor:'torres',
+      editora:'palacio'}
+    }
+    return meuslivros
+}
+
+
 
 /*
 Usando a função criada acima, imprima o objeto com todos os livros.
 */
 // ?
-
+console.log(book());
 /*
 Ainda com a função acima, imprima a quantidade de páginas de um livro qualquer,
 usando a frase:
