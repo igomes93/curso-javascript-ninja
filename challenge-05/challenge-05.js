@@ -22,19 +22,27 @@ Crie uma função que receba dois parâmetros: o primeiro, um array de valores; 
 segundo, um número. A função deve retornar o valor de um índice do array que foi passado
 no primeiro parâmetro. O índice usado para retornar o valor, deve ser o número passado no
 segundo parâmetro.
-*
+*/
+
+function myfun(arr,num){
+  return arr[3];
+}
 
 
 /*
 Declare uma variável que recebe um array com 5 valores, de tipos diferentes.
 */
-var myvar=['igor',null,10,[1,2,3],undefined]
+var num=['igor',null,10,[1,2,3],undefined]
 
 /*
 Invoque a função criada acima, fazendo-a retornar todos os valores do último
 array criado.
 */
-// ?
+var num=['igor',null,10,[1,2,3],undefined]
+function myfun(arr,num){
+  return arr[3];
+}
+myfun(num)
 
 /*
 Crie uma função chamada `book`, que recebe um parâmetro, que será o nome do
