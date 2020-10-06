@@ -11,6 +11,7 @@ function teste(){
   return [1,2,3]
 }
 
+
 /*
 Imprima o segundo índice do array retornado pela função criada acima.
 */
