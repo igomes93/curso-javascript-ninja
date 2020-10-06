@@ -64,7 +64,42 @@ Crie uma função chamada `convertToHex`, com as seguintes características:
 */
 // ?
 
+function convertToHex(cor){
+  switch(cor){
+    case 'red':
+    console.log ("o hexadecimal para red é 0982038")
+    break;
+    
+    case 'Amarelo':
+    console.log('o Hexadecimal para amarelo é 1223345')
+    break;
+
+    case 'roxo':
+    console.log('o Hexadecimal para roxo é 8239239')
+    break;
+    
+    case 'verde':
+    console.log('o Hexadecimal para verde é 7232387')
+    break;
+
+    case 'azul':
+    console.log('o Hexadecimal para azul é 10101010')
+    break;
+
+    default:
+    console.log('Não temos o equivalente hexadecimal para '+cor)
+
+  }
+}
 /*
 Tente mostrar o hexadecimal de 8 cores diferentes usando a função criada acima.
 */
 // ?
+console.log(convertToHex('verde'))
+console.log(convertToHex('azul'))
+console.log(convertToHex('red'))
+console.log(convertToHex('amarelo'))
+console.log(convertToHex('roxo'))
+console.log(convertToHex('branco'))
+console.log(convertToHex('preto'))
+console.log(convertToHex('lilas'))
