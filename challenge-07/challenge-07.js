@@ -58,6 +58,11 @@ console.log( 'Números pares entre 10 e 20:' );
 Na mesma ideia do exercício acima: mostre agora os números ímpares.
 */
 console.log( 'Números ímpares entre 10 e 20:' );
+
+while(num<=20){
+  (num++)%2===0 ? console.log(num):''
+  
+}96
 // ?
 
 /*
