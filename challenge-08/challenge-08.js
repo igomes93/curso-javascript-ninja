@@ -13,24 +13,33 @@ Invoque a função criada acima, passando dois números que serão somados, e mo
 o resultado no console, com a frase:
 "A soma de [VALOR 1] e [VALOR2] é igual a [RESULTADO]."
 */
-// ?
+console.log('A soma de'+' '+sum1+' '+'e'+' '+sum2+' '+ 'é igual a'+' '+sum(sum1,sum2))
 
 /*
 Mostre no console o nome da função criada acima, com a frase:
 "O nome da função que faz a soma é [NOME DA FUNÇÃO]."
 */
-// ?
+console.log('O nome da função que soma é'+' '+sum.name)
 
 /*
 Crie uma função literal chamada `showName`. Essa função deve retornar o
 seu nome.
 */
-// ?
+function showname(){
+  return{
+   nome:'Igor Gomes'
+ }
+}
 
 /*
 Declare uma variável chamada `varShowName` que recebe a função criada acima.
 */
-// ?
+function showname(){
+ var varShowname={
+   nome:'Igor Gomes'
+ }
+ return info
+}
 
 /*
 Usando a variável criada acima, mostre no console o nome e o retorno da função
