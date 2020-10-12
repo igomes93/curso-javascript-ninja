@@ -25,6 +25,8 @@ função receberá dois parâmetros e retornará a operação referente à sua
 propriedade, usando os valores passados por parâmetro.
 */
 // ?
+var operation={'+':function soma(x,y){return x+y},'-':function subt(x,y){return x-y},'*':function mult(x,y){return x*y},'/':function div(x,y){return x/y},'%':function mod(x,y){return x%y}
+}
 
 /*
 Crie uma função chamada `isOperatorValid`, que receberá um operador por
@@ -37,7 +39,9 @@ Caso contrário, "false".
 - O desafio é fazer o retorno sem usar "if" ou "switch".
 */
 // ?
-
+function isOperatorValid (ope){
+  return typeof ope === 'string'
+}
 /*
 Agora vamos criar a calculadora.
 - Crie uma função chamada `calculator`, que receberá como parâmetro um
