@@ -74,7 +74,9 @@ deve ser a frase:
 Essa função mostrará a mensagem da operação que criaremos mais abaixo.
 */
 // ?
-
+function showOperationMessage(ope,x,y){
+  return x+' '+ope+' '+y+' '+'='
+}
 /*
 Crie uma função chamada "showErrorMessage" que recebe um parâmetro: o
 operador da operação cálculo, quando a operação não for válida.
