@@ -84,7 +84,9 @@ Essa função deverá retornar a frase:
 'Operação "[OPERATOR]" não permitida!'
 */
 // ?
-
+function showErrorMessage(opera){
+  return 'Opereração'+opera+'não permitida!'
+}
 /*
 Nossa calculadora está pronta! Agora vamos testá-la:
 PASSO 1:
@@ -92,6 +94,9 @@ PASSO 1:
 "operationSignal", sem valor por enquanto.
 */
 // ?
+var num1=0
+var num2=0
+var operationSignal=null
 
 /*
 PASSO 2:
@@ -100,7 +105,9 @@ variável chamada "sum", que receba a função "calculator", passando por
 parâmetro a variável que recebeu o sinal da operação.
 */
 // ?
+operationSignal='+'
 
+var sum=calculator(operationSignal)
 /*
 PASSO 3:
 "sum" agora é uma função, e, se o sinal correto não foi passado para a
