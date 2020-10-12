@@ -55,7 +55,17 @@ operador passado para a função "calculator", e passando para esse método
 os dois parâmetros da função de retorno de "calculator".
 */
 // ?
-
+function calculator(operador){
+  if(typeof operador!=='string'){
+  return false
+  }
+  return function teste(x,y){
+    if(typeof x!=='number'||typeof y!=='number'){
+      return false
+    }
+  return operation[operador](x,y);
+  }
+}
 /*
 Crie uma função chamada "showOperationMessage" que recebe três parâmetros:
 - o operador, o primeiro número e o segundo número. O retorno da função
