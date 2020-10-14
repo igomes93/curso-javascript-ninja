@@ -41,7 +41,13 @@ Após a função, mostrar a mensagem no console:
 'The person has more than 25 years old? [TRUE/FALSE]'
 */
 // ?
-.
+function moreThan(idade){
+  if(person.idade<=25){
+    return true
+  }
+  return false
+}
+console.log('The person has more than 25 years old?'+' '+moreThan(26))
 /*
 Faça um loop de 0 a 20, que adicione cada número como um item de um
 array chamado `numbers`. Se o contador for maior que 10, saia do loop.
