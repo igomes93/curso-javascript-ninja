@@ -103,11 +103,16 @@ propriedades:
 - `estado`: que será o estado do array `brasil`.
 */
 // ?
+var newBrasil=[]
+brasil.forEach(
+  function(id,estado){
+    console.log(newBrasil.push(id,estado))
+  }
+)
 
 /*
 Mostre o array `newBrasil` no console
-*/
-console.log( '\nnewBrasil:' );
+*/console.log( '\nnewBrasil:',newBrasil );
 // ?
 
 /*
