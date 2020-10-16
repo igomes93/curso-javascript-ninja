@@ -122,7 +122,11 @@ atribuindo o resultado à uma variável. Se tiver, mostre no console a frase:
 Senão, mostre no console:
 - "Nem todos os estados tem mais de 7 letras!"
 */
-console.log( '\nTodos os estados de `brasil` tem mais de 7 letras?' );
+var every=brasil.every(function(estado){
+  return estado>7
+})
+
+console.log(every?'"Sim, todos os estados tem mais de 7 letras!"':"Nem todos os estados tem mais de 7 letras!")
 // ?
 
 /*
@@ -133,7 +137,13 @@ console:
 Senão, mostrar a frase:
 - "Ceará não foi incluído :("
 */
-console.log( '\nCeará está incluído em `brasil`?' );
+var some=brasil.some(function(id){
+   if(id==='Ceara'){
+    console.log("cerara ta incluido")
+  } else {'Ceara não ta incluido'
+  }
+
+
 // ?
 
 /*
