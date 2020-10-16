@@ -164,7 +164,7 @@ console.log( '\nnewBrasil agora com mais informações:' );
 Filtre o array criado acima, retornando somente os estados que tiverem
 ID par. Atribua o valor à uma variável chamada `filter`.
 */
-// ?
+// ?.
 
 /*
 Mostre o array filtrado acima no console.
