@@ -6,7 +6,8 @@ Envolva todo o código desse desafio em uma IIFE.
 Crie um array e mostre no console a representação em String desse array,
 usando o método visto na aula 13.
 */
-console.log( 'O array em formato de string é:' );
+var arr=['Igor','Gomes',26,'1993']
+console.log( 'O array em formato de string é:',arr.toString() );
 // ?
 
 /*
