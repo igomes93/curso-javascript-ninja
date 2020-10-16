@@ -15,6 +15,9 @@ Crie 2 arrays `sul` e `sudeste`, que serão as regiões do Brasil.
 Cada array deve conter os estados dessa região.
 */
 // ?
+var sudeste=['Rio de Janeiro','Espirito Santo','São Paulo','Minas Gerais']
+var sul=['Parana','Rio Grande so Sul','Santa Catarina']
+
 
 /*
 Crie uma variável chamada `brasil`, que irá receber as duas regiões
