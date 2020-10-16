@@ -19,12 +19,12 @@ Mostre no console, em um array, todas as propriedades do objeto acima.
 Não use nenhuma estrutura de repetição, nem crie o array manualmente.
 */
 // ?
-
+console.log(Object.keys(person))
 /*
 Crie um array vazio chamado `books`.
 */
 // ?
-
+var books=[];
 /*
 Adicione nesse array 3 objetos, que serão 3 livros. Cada livro deve ter a
 seguintes propriedades:
@@ -32,30 +32,38 @@ seguintes propriedades:
 `pages`: Number
 */
 // ?
-console.log( '\nLista de livros:' );
+books[0]={nome:'Seja foda!',
+pages:500};
+books[1]={nome:'Escaravelho do diabo',
+pages:200};
+books[2]={nome:'pai rico,pai pobre',
+pages:800};
 
 /*
 Mostre no console todos os livros.
 */
 // ?
+console.log( '\nLista de livros:',books);
 
-console.log( '\nLivro que está sendo removido:' );
+
 /*
 Remova o último livro, e mostre-o no console.
 */
 // ?
+console.log( '\nLivro que está sendo removido:',books.pop() );
 
-console.log( '\nAgora sobraram somente os livros:' );
+
 /*
 Mostre no console os livros restantes.
 */
 // ?
+console.log( '\nAgora sobraram somente os livros:',books );
 
 /*
 Converta os objetos que ficaram em `books` para strings.
 */
 // ?
-console.log( '\nLivros em formato string:' );
+console.log( '\nLivros em formato string:',JSON.stringify(books) );
 
 /*
 Mostre os livros nesse formato no console:
