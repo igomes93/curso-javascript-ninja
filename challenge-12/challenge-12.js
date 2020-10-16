@@ -11,6 +11,7 @@ Preencha cada propriedade com os seus dados pessoais, respeitando o tipo
 de valor para cada propriedade.
 */
 // ?
+var person={ name:'Igor',lastname:'Gomes',age:26}
 console.log( 'Propriedades de "person":' );
 
 /*
