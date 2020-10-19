@@ -66,7 +66,11 @@ console.log( '\nSeu nome na língua do "P":',reduce );
 Crie uma variável chamada `inversedName`, que reduzirá o array em uma string
 e atribuirá o seu nome invertido (usando o array criado acima).
 */
-console.log( '\nInversed Name:' );
+var inversedName=name.reduceRight(function(x,y){
+  return x+y
+})
+
+console.log( '\nInversed Name:',inversedName );
 // ?
 
 /*
