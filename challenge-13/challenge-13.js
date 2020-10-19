@@ -140,10 +140,14 @@ Senão, mostrar a frase:
 var some=brasil.some(function(id){
    if(id==='Ceara'){
     console.log("cerara ta incluido")
-  } else {'Ceara não ta incluido'
+  } else {console.log('Ceara não ta incluido')
   }
 
+var some=brasil.some(function(id){
+return id==="Ceara"
+})
 
+console.log(some?"Ceara esta incluido":"Ceara não esta incluido")
 // ?
 
 /*
