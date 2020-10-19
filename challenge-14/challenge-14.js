@@ -54,7 +54,12 @@ PS.: Lembra da língua do "P"? Não? A língua do "P" é uma brincadeira
 infantil, onde você coloca a letra "P" antes de cada sílaba de uma palavra
 falada, como se você estivesse falando em código xD
 */
-console.log( '\nSeu nome na língua do "P":' );
+var name=['I','g','o','r']
+var reduce=name.reduce(function(x,y){
+  return x+'p'+y;
+},'')
+
+console.log( '\nSeu nome na língua do "P":',reduce ); 
 // ?
 
 /*
