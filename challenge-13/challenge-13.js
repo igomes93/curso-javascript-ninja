@@ -157,7 +157,9 @@ objeto desse array, e adicione a frase abaixo na propriedade `estado`:
 Atribua o novo array a uma variável chamada `map`.
 */
 // ?
-
+var map=newBrasil.map(function(item,index,array){
+  return item+1;
+})
 /*
 Mostre no console o array criado acima:
 */
@@ -169,7 +171,9 @@ Filtre o array criado acima, retornando somente os estados que tiverem
 ID par. Atribua o valor à uma variável chamada `filter`.
 */
 // ?.
-
+var filter=map.filter(function(item, index){
+  return item%2===0
+})
 /*
 Mostre o array filtrado acima no console.
 */
