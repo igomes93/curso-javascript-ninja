@@ -52,6 +52,11 @@ um valor reduzido pela seguinte operação:
 O cálculo deve começar com zero.
 Mostre o resultado no console.
 */
+ 
+ var operation=justMod2Or3.reduce(function(x,y){
+   return (x+1)*y;
+ },0)
+ console.log(operation)
 console.log( '\nOperation:' );
 // ?
 
@@ -60,6 +65,10 @@ Faça o mesmo cálculo passado acima, mas começando do último item para o
 primeiro. O nome da variável deve ser operation2. Mostre o resultado no
 console.
 */
+ var operation2=justMod2Or3.reduceRight(function(x,y){
+   return (x+1)*y;
+ },0)
+ console.log(operation2)
 console.log( '\nOperation 2:' );
 // ?
 
